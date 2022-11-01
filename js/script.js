@@ -33,7 +33,7 @@ function findAnimal() {
 }
 
 findAnimal();
-console.log(newAnimalArray, "fuori function");
+console.log(newAnimalArray);
 
 
 /*2. Crea un array di oggetti che rappresentano delle persone.
@@ -69,7 +69,6 @@ const readyToDrive = [];
 function checkAge() {
     for(let i = 0; i < people.length; i++){
         thisDriver = people[i];
-        console.log(thisDriver);
         if(thisDriver.age < 70){
             readyToDrive.push(thisDriver)
         }
